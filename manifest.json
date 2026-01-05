@@ -1,0 +1,15 @@
+{
+  "manifest_version": 3,
+  "name": "Ads Guard Personal",
+  "version": "1.0",
+  "description": "Block Ads, Adult & Haram websites",
+  "permissions": [
+    "webRequest",
+    "webRequestBlocking",
+    "storage",
+    "<all_urls>"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  }
+}
