@@ -2,7 +2,7 @@ let blocked_domains = [];
 
 // GitHub RAW blocklist URL
 const BLOCKLIST_URL =
-  "https://raw.githubusercontent.com/mahtabdev/ads-guard-dns/main/islamic-extra.txt";
+  "https://raw.githubusercontent.com/StevenBlack/hosts/master/hosts";
 
 // Load blocklist from GitHub
 async function loadBlocklist() {
